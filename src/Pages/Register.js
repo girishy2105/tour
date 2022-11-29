@@ -84,7 +84,7 @@ const Register = () => {
                   name='CustomerCode'
                 />
               </div>
-1  
+              1
               <div className='mb-3 col-lg-3 col-md-3 col-12'>
                 <label for='ExampleInputPassword1' class=' form=label'>
                   Customer Name:
@@ -99,7 +99,6 @@ const Register = () => {
                   name='CustomerName'
                 />
               </div>
-
               <div className='row'>
                 <div className='mb-3 col-lg-3 col-md-3 col-12'>
                   <label for='ExampleInputPassword1' class=' form=label'>

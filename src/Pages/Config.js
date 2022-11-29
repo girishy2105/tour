@@ -10,4 +10,4 @@ let puturl =
 let delurl =
   'https://zfpid3tm0m.execute-api.us-east-1.amazonaws.com/customer/:code'
 
-module.exports = { posturl, geturl, delurl, puturl, post, get, put }
+module.exports = { posturl, geturl, delurl, puturl }

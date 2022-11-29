@@ -68,12 +68,15 @@ const Booking = () => {
   }
 
   const deleteuser = async (CustomerCode) => {
-    const res2 = await fetch(`http://localhost:443/customer/${CustomerCode}`, {
-      method: 'DELETE',
-      headers: {
-        'Content-Type': 'application/json',
-      },
-    })
+    const res2 = await fetch(
+      `https://zfpid3tm0m.execute-api.us-east-1.amazonaws.com/${CustomerCode}`,
+      {
+        method: 'DELETE',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+      }
+    )
 
     const data2 = await res2.json()
     console.log('data2', data2)
